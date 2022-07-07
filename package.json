@@ -1,10 +1,17 @@
 {
-  "name": " ",
-  "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "name": "gilesreece-portfolio",
+  "version": "0.1.0",
+  "description": "Portfolio website for Reece Giles.",
+  "keywords": [
+    "Reece",
+    "Giles",
+    "website"
+  ],
+  "license": "MIT",
+  "author": "Reece Giles <me@reecegiles.com>",
+  "browserslist": [
+    "> 0.5%, last 2 versions, not dead"
+  ],
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
@@ -12,6 +19,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@parcel/packager-raw-url": "^2.6.2",
+    "@parcel/transformer-webmanifest": "^2.6.2",
+    "parcel": "^2.6.2"
   }
 }
